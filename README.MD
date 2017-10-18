@@ -4,7 +4,7 @@
 # Overview
 This MOS app allows you to control your MATRIX Creator through a Discord bot. The
 <a href="https://github.com/Hermitter/MATRIX-Discord-Bot/blob/master/app.js">app.js</a> 
-file includes prebuilt commands for you to use as an example for making your own. Each command added is assigned to a command group object that's stored in the commandGroups variable. For example, commands assigned to the 'matrix group' are now able to be used by typing '/matrix your_command' in the discrod chat.
+file includes prebuilt commands for you to use as an example for making your own. Each command added is assigned to a command group object that's stored in the commandGroups variable. For example, commands assigned to the 'matrix' group are now able to be used by typing '/matrix your_command' in the Discord chat.
 
 ```
 Current Commands:
@@ -20,6 +20,12 @@ This example below will show you how to add a hello World command to the /matrix
 ```js
 //addGroupCommand(group, commandName, Description, functionToRun)
 addGroupCommand('matrix', 'hello', 'Link To MATRIX Documentation', function(userArgs, message){
-    message.reply('hellowWorld');
+    message.reply('helloWorld');
 });
 ```
+<img src="https://i.imgur.com/6CWJYtc.png"/>
+
+# Notes
+- When joining a voice channel, the bot's mic audio will be delayed for a few seconds. This delay should naturally fix in a few minutes. If the bot switches from a voice channel, it will not have to go through the process again.
+- Typing a group command by itself will list all known commands in that group
+    - <img style="width:100px" src="https://i.imgur.com/5oKEYVt.png"/>
