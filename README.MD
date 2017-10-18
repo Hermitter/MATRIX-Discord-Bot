@@ -26,6 +26,7 @@ addGroupCommand('matrix', 'hello', 'Link To MATRIX Documentation', function(user
 <img src="https://i.imgur.com/6CWJYtc.png"/>
 
 # Notes
+- Requires ```sudo apt-get install libav-tools``` for voice functionality.
 - When joining a voice channel, the bot's mic audio will be delayed for a few seconds. This delay should naturally fix in a few minutes. If the bot switches from a voice channel, it will not have to go through the process again.
 - Typing a group command by itself will list all known commands in that group
     - <img style="width:100px" src="https://i.imgur.com/5oKEYVt.png"/>
