@@ -25,7 +25,7 @@ addGroupCommand('matrix', 'hello', 'Link To MATRIX Documentation', function(user
 ```
 <img src="https://i.imgur.com/6CWJYtc.png"/>
 
-# Dependencies
+# Pi Dependencies
 - Discord Audio Streaming
     - Libav ```sudo apt-get install libav-tools```
 - MATRIX Creator Mics
