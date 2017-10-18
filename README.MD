@@ -4,7 +4,7 @@
 # Overview
 This MOS app allows you to control your MATRIX Creator through a Discord bot. The
 <a href="https://github.com/Hermitter/MATRIX-Discord-Bot/blob/master/app.js">app.js</a> 
-file includes prebuilt commands for you to use as an example for making your own. Each command added is assigned to a command group object that's stored in the commandGroups variable. For example, commands assigned to the 'matrix' group are now able to be used by typing '/matrix your_command' in the Discord chat.
+file includes prebuilt commands for you to use as an example for making your own. Each command added is assigned to a command group object that's stored in the commandGroups variable. For example, commands assigned to the 'matrix' group are now able to be used by typing '/matrix your-command' in the Discord chat.
 
 ```
 Current Commands:
