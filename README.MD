@@ -16,7 +16,7 @@ Current Commands:
 /basic ping - Reply To User Ping
 ```
 # Adding Commands
-This example below will show you how to add a hello World command to the /matrix command group
+This example will show you how to add a hello World command to the /matrix command group
 ```js
 //addGroupCommand(group, commandName, Description, functionToRun)
 addGroupCommand('matrix', 'hello', 'Link To MATRIX Documentation', function(userArgs, message){
