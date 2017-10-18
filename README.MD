@@ -32,6 +32,7 @@ addGroupCommand('matrix', 'hello', 'Link To MATRIX Documentation', function(user
     - ALSA Tools ```sudo apt-get install alsa-base alsa-utils```
 
 # Notes
+- Invite Link: https://discordapp.com/oauth2/authorize?client_id=XXXXXXXXXXXXXXX&scope=bot&permissions=1
 - When joining a voice channel, the bot's mic audio will be delayed for a few seconds. This delay should naturally fix in a few minutes. If the bot switches from a voice channel, it will not have to go through the process again.
 - Typing a group command by itself will list all known commands in that group
     - <img style="width:100px" src="https://i.imgur.com/5oKEYVt.png"/>
