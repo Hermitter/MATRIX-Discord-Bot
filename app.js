@@ -1,4 +1,4 @@
-var Discord = require('discord.js');
+var Discord = require('discord.js');//https://discord.js.org
 var bot = new Discord.Client();//Discord Bot Object
 var token = 'YOUR_BOT_TOKEN_HERE';//Discord Bot Token
 var mic = require('mic');//Stream wrapper for arecord
