@@ -19,7 +19,7 @@ Current Commands:
 This example will show you how to add a hello World command to the /matrix command group
 ```js
 //addGroupCommand(group, commandName, Description, functionToRun)
-addGroupCommand('matrix', 'hello', 'Link To MATRIX Documentation', function(userArgs, message){
+addGroupCommand('matrix', 'hello', 'A hello world command!', function(userArgs, message){
     message.reply('helloWorld');
 });
 ```
