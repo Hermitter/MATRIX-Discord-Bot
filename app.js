@@ -134,7 +134,7 @@ addGroupCommand('matrix', 'leave', 'MATRIX Leaves Current Voice Channel', functi
             currentVoiceChannel = undefined;
         }
         else
-        message.reply('Currently not in a voice channel!');
+            message.reply('Currently not in a voice channel!');
     }
     //Tell user to use no args
     else
