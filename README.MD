@@ -17,8 +17,9 @@ Current Commands:
 ```
 # Adding Commands
 This example will show you how to add a hello World command to the /matrix command group
+- The callback will be given the Discord.js message object and an array of the chat message, separated by space. 
 ```js
-//addGroupCommand(group, commandName, Description, functionToRun)
+//addGroupCommand(group, commandName, Description, callback)
 addGroupCommand('matrix', 'hello', 'A hello world command!', function(userArgs, message){
     message.reply('helloWorld');
 });
