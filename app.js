@@ -140,7 +140,7 @@ addGroupCommand('matrix', 'leave', 'MATRIX Leaves Current Voice Channel', functi
     else
         message.reply('```"/matrix leave" has no parameters```'); 
 });
-// - MATRIX Records Audio
+// - MATRIX Documentation Link
 addGroupCommand('matrix', 'docs', 'Link To MATRIX Documentation', function(userArgs, message){
     message.reply('https://matrix-io.github.io/matrix-documentation/');
 });
