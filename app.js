@@ -134,13 +134,13 @@ addGroupCommand('matrix', 'leave', 'MATRIX Leaves Current Voice Channel', functi
             currentVoiceChannel = undefined;
         }
         else
-        message.reply('Currently not in a voice channel!');
+            message.reply('Currently not in a voice channel!');
     }
     //Tell user to use no args
     else
         message.reply('```"/matrix leave" has no parameters```'); 
 });
-// - MATRIX Records Audio
+// - MATRIX Documentation Link
 addGroupCommand('matrix', 'docs', 'Link To MATRIX Documentation', function(userArgs, message){
     message.reply('https://matrix-io.github.io/matrix-documentation/');
 });

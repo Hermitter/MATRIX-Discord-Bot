@@ -17,8 +17,9 @@ Current Commands:
 ```
 # Adding Commands
 This example will show you how to add a hello World command to the /matrix command group
+- The callback will be given the Discord.js message object and an array of the chat message, separated by space. 
 ```js
-//addGroupCommand(group, commandName, Description, functionToRun)
+//addGroupCommand(group, commandName, Description, callback)
 addGroupCommand('matrix', 'hello', 'A hello world command!', function(userArgs, message){
     message.reply('helloWorld');
 });
@@ -35,4 +36,4 @@ addGroupCommand('matrix', 'hello', 'A hello world command!', function(userArgs, 
 - Bot Invite Link: https://discordapp.com/oauth2/authorize?client_id=XXXXXXXXXXXXXXXXXX&scope=bot&permissions=1
 - When joining a voice channel, the bot's mic audio will be delayed for a few seconds. This delay should naturally fix in a few minutes. If the bot switches from a voice channel, it will not have to go through the process again.
 - Typing a group command by itself will list all known commands in that group
-    - <img style="width:100px" src="https://i.imgur.com/5oKEYVt.png"/>
+    <img style="width:100px" src="https://i.imgur.com/5oKEYVt.png"/>
